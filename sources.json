@@ -1,0 +1,97 @@
+{
+ "note": "巡回先は全URLを2026-07-29に実アクセスしてHTTP 200を確認済み（推測登録なし）。status=ok のみ巡回する。",
+ "sources": [
+  {
+   "municipality": "熊本市",
+   "url": "https://www.city.kumamoto.jp/list04828.html",
+   "pageTitle": "令和8年熊本地震に関するお知らせ",
+   "status": "ok",
+   "verifiedAt": "2026-07-29"
+  },
+  {
+   "municipality": "宇城市",
+   "url": "https://www.city.uki.kumamoto.jp/toppage/kinkyu/2606699",
+   "pageTitle": "令和8年熊本地震（7月28日発生）に関する情報",
+   "status": "ok",
+   "verifiedAt": "2026-07-29"
+  },
+  {
+   "municipality": "八代市",
+   "url": "https://www.city.yatsushiro.lg.jp/bousai/default.html",
+   "pageTitle": "防災情報",
+   "status": "ok",
+   "verifiedAt": "2026-07-29"
+  },
+  {
+   "municipality": "山鹿市",
+   "url": "https://www.city.yamaga.kumamoto.jp/list00158.html",
+   "pageTitle": "道路・交通・河川",
+   "status": "ok",
+   "verifiedAt": "2026-07-29"
+  },
+  {
+   "municipality": "美里町",
+   "url": "https://www.town.kumamoto-misato.lg.jp/kinkyu/index.html",
+   "pageTitle": "緊急情報",
+   "status": "ok",
+   "verifiedAt": "2026-07-29"
+  },
+  {
+   "municipality": "嘉島町",
+   "url": "https://www.town.kumamoto-kashima.lg.jp/q/list/51.html",
+   "pageTitle": "緊急情報の一覧",
+   "status": "ok",
+   "verifiedAt": "2026-07-29"
+  },
+  {
+   "municipality": "御船町",
+   "url": "https://www.town.mifune.kumamoto.jp/hpkiji/pub/List.aspx?c_id=3&class_set_id=1&class_id=1008",
+   "pageTitle": "災害情報",
+   "status": "ok",
+   "verifiedAt": "2026-07-29"
+  },
+  {
+   "municipality": "甲佐町",
+   "url": "https://www.town.kosa.lg.jp/q/list/51.html",
+   "pageTitle": "緊急情報の一覧",
+   "status": "ok",
+   "verifiedAt": "2026-07-29"
+  },
+  {
+   "municipality": "山都町",
+   "url": "https://www.town.kumamoto-yamato.lg.jp/kinkyu.html",
+   "pageTitle": "緊急情報",
+   "status": "ok",
+   "verifiedAt": "2026-07-29"
+  },
+  {
+   "municipality": "益城町",
+   "url": "https://www.town.mashiki.lg.jp/kinkyu.html",
+   "pageTitle": "緊急情報（通行規制情報の掲載実績あり）",
+   "status": "ok",
+   "verifiedAt": "2026-07-29"
+  },
+  {
+   "municipality": "西原村",
+   "url": "https://www.vill.nishihara.kumamoto.jp/kinkyu.html",
+   "pageTitle": "緊急情報",
+   "status": "ok",
+   "verifiedAt": "2026-07-29"
+  },
+  {
+   "municipality": "南阿蘇村",
+   "url": "https://www.vill.minamiaso.lg.jp/kinkyu.html",
+   "pageTitle": "緊急情報",
+   "status": "ok",
+   "verifiedAt": "2026-07-29"
+  },
+  {
+   "municipality": "球磨村",
+   "url": "https://www.kumamura.com/list00161.html",
+   "pageTitle": "通行規制情報",
+   "status": "not_found",
+   "verifiedAt": "2026-07-29",
+   "note": "このページの記事は2025年6月以前の旧災害分のみで、2026年7月28日の地震の情報源として不適のため巡回対象外（誤誘導防止）。球磨村の現在の規制は県の公表データでカバーされる。"
+  }
+ ]
+}

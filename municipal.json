@@ -1,0 +1,86 @@
+{
+ "updatedAt": "2026-07-29 15:01",
+ "note": "市町村公式サイトからの自動収集データ。各項目に原文リンク・引用・取得時刻を付与。",
+ "items": [
+  {
+   "municipality": "熊本市",
+   "road": "主要地方道 熊本嘉島線",
+   "type": "県道",
+   "status": "一部区間全面通行止め",
+   "articleDate": "2026-07-29",
+   "sourceUrl": "https://www.city.kumamoto.jp/list04828.html",
+   "sourceQuote": "主要地方道 熊本嘉島線 一部区間全面通行止めのお知らせ",
+   "fetchedAt": "2026-07-29 15:00"
+  },
+  {
+   "municipality": "益城町",
+   "road": "五楽橋",
+   "type": "その他",
+   "status": "全面通行止め",
+   "articleDate": "2026-07-29",
+   "sourceUrl": "https://www.town.mashiki.lg.jp/kinkyu.html",
+   "sourceQuote": "五楽橋（路面の段差により通行止め）",
+   "fetchedAt": "2026-07-29 15:01"
+  },
+  {
+   "municipality": "益城町",
+   "road": "福原袴野線",
+   "type": "その他",
+   "status": "全面通行止め",
+   "articleDate": "2026-07-29",
+   "sourceUrl": "https://www.town.mashiki.lg.jp/kinkyu.html",
+   "sourceQuote": "福原袴野線（内寺付近 落石の恐れがあるため通行止め）",
+   "fetchedAt": "2026-07-29 15:01"
+  },
+  {
+   "municipality": "益城町",
+   "road": "町道馬水上野添1号線",
+   "type": "町道",
+   "status": "全面通行止め",
+   "articleDate": "2026-07-29",
+   "sourceUrl": "https://www.town.mashiki.lg.jp/kinkyu.html",
+   "sourceQuote": "町道馬水上野添1号線（電柱倒壊による通行止め）",
+   "fetchedAt": "2026-07-29 15:01"
+  },
+  {
+   "municipality": "益城町",
+   "road": "町道惣領福富線",
+   "type": "町道",
+   "status": "全面通行止め",
+   "articleDate": "2026-07-29",
+   "sourceUrl": "https://www.town.mashiki.lg.jp/kinkyu.html",
+   "sourceQuote": "町道惣領福富線（電線垂れ下がりによる通行止め）",
+   "fetchedAt": "2026-07-29 15:01"
+  },
+  {
+   "municipality": "益城町",
+   "road": "町道前畑下北田線",
+   "type": "町道",
+   "status": "全面通行止め",
+   "articleDate": "2026-07-29",
+   "sourceUrl": "https://www.town.mashiki.lg.jp/kinkyu.html",
+   "sourceQuote": "町道前畑下北田線（家屋倒壊による通行止め）",
+   "fetchedAt": "2026-07-29 15:01"
+  },
+  {
+   "municipality": "益城町",
+   "road": "木山橋南側",
+   "type": "その他",
+   "status": "通行止め解除",
+   "articleDate": "2026-07-29",
+   "sourceUrl": "https://www.town.mashiki.lg.jp/kinkyu.html",
+   "sourceQuote": "木山橋南側",
+   "fetchedAt": "2026-07-29 15:01"
+  },
+  {
+   "municipality": "益城町",
+   "road": "宮園橋",
+   "type": "その他",
+   "status": "通行止め解除",
+   "articleDate": "2026-07-29",
+   "sourceUrl": "https://www.town.mashiki.lg.jp/kinkyu.html",
+   "sourceQuote": "宮園橋",
+   "fetchedAt": "2026-07-29 15:01"
+  }
+ ]
+}
