@@ -1,22 +1,54 @@
 {
-  "https://www.city.yatsushiro.lg.jp/bousai/default.html": {
-    "hash": "86dcc1a2bc60a8fbf7d5df464ad5d4bf44e57236f98f7ec4ab9962e54387a97e",
-    "checkedAt": "2026-07-29 15:01"
-  },
-  "https://www.town.kosa.lg.jp/q/list/51.html": {
-    "hash": "b1256d77005afaecf66c3f6d65a3dd573fe1baf21f13fa93ce7226162cbb1dc9",
-    "checkedAt": "2026-07-29 12:53"
-  },
-  "https://www.town.mashiki.lg.jp/kinkyu.html": {
-    "hash": "bf138e5cb4351519c68a0030f65aef4751fe9cd916ea4a1180382974f2c6473c",
-    "checkedAt": "2026-07-29 15:01"
-  },
-  "https://www.vill.minamiaso.lg.jp/kinkyu.html": {
-    "hash": "3792e26592d973aa2e33c16f33062f5df722cf2265f4db0543a82de59ba7b788",
-    "checkedAt": "2026-07-29 12:54"
-  },
-  "https://www.kumamura.com/list00161.html": {
-    "hash": "cf3feafd7ded830cb9ee4132aaee32459963bb2af75d0b906940804623503bea",
-    "checkedAt": "2026-07-29 12:26"
-  }
+ "https://www.city.yatsushiro.lg.jp/bousai/default.html": {
+  "hash": "86dcc1a2bc60a8fbf7d5df464ad5d4bf44e57236f98f7ec4ab9962e54387a97e",
+  "checkedAt": "2026-07-29 15:01"
+ },
+ "https://www.town.kosa.lg.jp/q/list/51.html": {
+  "hash": "b1256d77005afaecf66c3f6d65a3dd573fe1baf21f13fa93ce7226162cbb1dc9",
+  "checkedAt": "2026-07-29 12:53"
+ },
+ "https://www.town.mashiki.lg.jp/kinkyu.html": {
+  "hash": "bf138e5cb4351519c68a0030f65aef4751fe9cd916ea4a1180382974f2c6473c",
+  "checkedAt": "2026-07-29 15:01"
+ },
+ "https://www.vill.minamiaso.lg.jp/kinkyu.html": {
+  "hash": "3792e26592d973aa2e33c16f33062f5df722cf2265f4db0543a82de59ba7b788",
+  "checkedAt": "2026-07-29 12:54"
+ },
+ "https://www.kumamura.com/list00161.html": {
+  "hash": "cf3feafd7ded830cb9ee4132aaee32459963bb2af75d0b906940804623503bea",
+  "checkedAt": "2026-07-29 12:26"
+ },
+ "https://www.city.kumamoto.jp/list04828.html": {
+  "hash": "a7f335c0180f5a3e5f4ff00e46f0493eb2dd00a19e5f163fcb8314582ea1cad7",
+  "checkedAt": "2026-07-29 15:17"
+ },
+ "https://www.city.uki.kumamoto.jp/toppage/kinkyu/2606699": {
+  "hash": "747b486e7da9bc5994abb39f53969cdbf5838e4131de5432cbd50772a2fdb375",
+  "checkedAt": "2026-07-29 15:17"
+ },
+ "https://www.city.yamaga.kumamoto.jp/list00158.html": {
+  "hash": "f927c1d1d172078e9b2c96c12cda1595f36d453d7e5056bc6e34d45103a19318",
+  "checkedAt": "2026-07-29 15:17"
+ },
+ "https://www.town.kumamoto-misato.lg.jp/kinkyu/index.html": {
+  "hash": "79ef5f32ac44bdab9e6485f408a7cc8743ea122cdf23b15333e6c86f5030a0a7",
+  "checkedAt": "2026-07-29 15:17"
+ },
+ "https://www.town.kumamoto-kashima.lg.jp/q/list/51.html": {
+  "hash": "00f53cecde3754036587467f717e6a8c7e8477d0c57c181b597c6471d5939499",
+  "checkedAt": "2026-07-29 15:18"
+ },
+ "https://www.town.mifune.kumamoto.jp/hpkiji/pub/List.aspx?c_id=3&class_set_id=1&class_id=1008": {
+  "hash": "7e2bb75bf51062b0ad477a410ae7c516ab8b387ae067aac1e0bcf784d8c8918e",
+  "checkedAt": "2026-07-29 15:18"
+ },
+ "https://www.town.kumamoto-yamato.lg.jp/kinkyu.html": {
+  "hash": "1e7d1b98fdb194c76acae5f41bad82fd9b822cda98e6e04b718b18c5b3116c68",
+  "checkedAt": "2026-07-29 15:18"
+ },
+ "https://www.vill.nishihara.kumamoto.jp/kinkyu.html": {
+  "hash": "dc9cc8bf27efa6c7431b312569254fab11c1926374bf6cd9c3d026e1022fafd9",
+  "checkedAt": "2026-07-29 15:18"
+ }
 }
