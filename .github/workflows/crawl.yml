@@ -2,7 +2,7 @@ name: crawl
 
 on:
   schedule:
-    - cron: "13,43 * * * *"  # 30分ごと（毎時13分・43分。00/30分ちょうどはGitHub側が混雑し間引かれるため回避）
+    - cron: "13 * * * *"  # バックアップ用に1時間ごと（主役はCloudflare Workerからの30分ごとdispatch起動。00/30分と離してpush衝突を減らす）
   workflow_dispatch: {}
 
 # 多重実行防止（前回が走行中なら新規はキューで待つ。キャンセルはしない）
@@ -43,5 +43,13 @@ jobs:
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git add municipal.json state/
             git commit -m "update municipal road data ($(date -u +'%Y-%m-%dT%H:%MZ'))"
-            git push
+            # 同時実行と衝突した場合はrebaseして最大3回やり直す
+            for i in 1 2 3; do
+              if git push; then
+                break
+              fi
+              echo "push rejected (attempt $i) — rebase and retry"
+              git pull --rebase origin main || exit 1
+              sleep 5
+            done
           fi
