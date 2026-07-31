@@ -1,17 +1,7 @@
 {
- "updatedAt": "2026-07-31 21:03",
+ "updatedAt": "2026-07-31 22:05",
  "note": "市町村公式サイトからの自動収集データ。各項目に原文リンク・引用・取得時刻を付与。",
  "items": [
-  {
-   "municipality": "熊本市",
-   "road": "主要地方道 熊本嘉島線",
-   "type": "県道",
-   "status": "一部区間全面通行止め",
-   "articleDate": "2026-07-29",
-   "sourceUrl": "https://www.city.kumamoto.jp/list04828.html",
-   "sourceQuote": "主要地方道 熊本嘉島線 一部区間全面通行止めのお知らせ",
-   "fetchedAt": "2026-07-31 21:01"
-  },
   {
    "municipality": "甲佐町",
    "road": "町道坂谷線",
@@ -21,6 +11,16 @@
    "sourceUrl": "https://www.town.kosa.lg.jp/q/list/51.html",
    "sourceQuote": "町道坂谷線で、新たに落石が発生した",
    "fetchedAt": "2026-07-31 21:03"
+  },
+  {
+   "municipality": "熊本市",
+   "road": "熊本嘉島線",
+   "type": "県道",
+   "status": "全面通行止め",
+   "articleDate": "2026-07-29",
+   "sourceUrl": "https://www.city.kumamoto.jp/list04828.html",
+   "sourceQuote": "主要地方道 熊本嘉島線 一部区間全面通行止めのお知らせ",
+   "fetchedAt": "2026-07-31 22:04"
   }
  ]
 }
