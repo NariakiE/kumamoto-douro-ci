@@ -1,5 +1,16 @@
 {
- "updatedAt": "2026-08-03 14:03",
+ "updatedAt": "2026-08-03 14:32",
  "note": "市町村公式サイトからの自動収集データ。各項目に原文リンク・引用・取得時刻を付与。",
- "items": []
+ "items": [
+  {
+   "municipality": "甲佐町",
+   "road": "町道坂谷線",
+   "type": "町道",
+   "status": "落石",
+   "articleDate": "2026-07-30",
+   "sourceUrl": "https://www.town.kosa.lg.jp/q/list/51.html",
+   "sourceQuote": "町道坂谷線で、新たに落石が発生したこ",
+   "fetchedAt": "2026-08-03 14:32"
+  }
+ ]
 }
