@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-04 11:03",
+ "updatedAt": "2026-08-04 11:32",
  "note": "市町村公式サイトからの自動収集データ。各項目に原文リンク・引用・取得時刻を付与。",
  "items": [
   {
@@ -9,8 +9,8 @@
    "status": "落石発生",
    "articleDate": "2026-07-30",
    "sourceUrl": "https://www.town.kosa.lg.jp/q/list/51.html",
-   "sourceQuote": "町道坂谷線で、新たに落石が発生した",
-   "fetchedAt": "2026-08-04 11:03"
+   "sourceQuote": "町道坂谷線で、新たに落石が発生したこ",
+   "fetchedAt": "2026-08-04 11:32"
   }
  ]
 }
