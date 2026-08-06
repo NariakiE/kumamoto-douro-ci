@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-06 20:31",
+ "updatedAt": "2026-08-06 21:14",
  "note": "市町村公式サイトからの自動収集データ。各項目に原文リンク・引用・取得時刻を付与。",
  "items": [
   {
@@ -11,16 +11,6 @@
    "sourceUrl": "https://www.town.mifune.kumamoto.jp/hpkiji/pub/List.aspx?c_id=3&class_set_id=1&class_id=1008",
    "sourceQuote": "【滝川橋】令和8年地震に伴う全面通行止めのお知らせ",
    "fetchedAt": "2026-08-06 19:31"
-  },
-  {
-   "municipality": "熊本市",
-   "road": "主要地方道熊本嘉島線",
-   "type": "県道",
-   "status": "全面通行止め解除",
-   "articleDate": "2026-08-06",
-   "sourceUrl": "https://www.city.kumamoto.jp/list04828.html",
-   "sourceQuote": "主要地方道熊本嘉島線の全面通行止め解除について",
-   "fetchedAt": "2026-08-06 20:30"
   }
  ]
 }
