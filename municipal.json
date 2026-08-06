@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-06 20:01",
+ "updatedAt": "2026-08-06 20:31",
  "note": "市町村公式サイトからの自動収集データ。各項目に原文リンク・引用・取得時刻を付与。",
  "items": [
   {
@@ -20,7 +20,7 @@
    "articleDate": "2026-08-06",
    "sourceUrl": "https://www.city.kumamoto.jp/list04828.html",
    "sourceQuote": "主要地方道熊本嘉島線の全面通行止め解除について",
-   "fetchedAt": "2026-08-06 20:00"
+   "fetchedAt": "2026-08-06 20:30"
   }
  ]
 }
