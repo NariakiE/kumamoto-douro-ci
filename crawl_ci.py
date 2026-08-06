@@ -19,6 +19,7 @@ import html as htmlmod
 import json
 import os
 import re
+import signal
 import subprocess
 import sys
 import time
@@ -169,21 +170,34 @@ def extract_with_claude(municipality, page_title, url, body_text):
     )
     env = dict(os.environ)
     env.pop("ANTHROPIC_API_KEY", None)  # 従量APIキーを確実に使わせない（サブスク認証のみ）
+    # claudeは内部で子プロセスを持つため、タイムアウト時は
+    # プロセスグループごとSIGKILLしないとパイプが開いたまま永久に待つ
     try:
-        proc = subprocess.run(
+        proc = subprocess.Popen(
             ["claude", "-p", prompt, "--model", "haiku", "--output-format", "text"],
-            capture_output=True, text=True, timeout=180, env=env,
+            stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True, env=env,
+            start_new_session=True,
         )
     except FileNotFoundError:
         log("ERROR: claude CLIが見つかりません")
         return None, 0
+    try:
+        stdout, stderr = proc.communicate(timeout=180)
     except subprocess.TimeoutExpired:
-        log("ERROR: claude -p タイムアウト (%s)" % municipality)
+        try:
+            os.killpg(os.getpgid(proc.pid), signal.SIGKILL)
+        except (ProcessLookupError, PermissionError):
+            pass
+        try:
+            proc.communicate(timeout=10)
+        except Exception:
+            pass
+        log("ERROR: claude -p タイムアウト・グループ強制終了 (%s)" % municipality)
         return None, 0
     if proc.returncode != 0:
-        log("ERROR: claude -p 失敗 (%s): %s" % (municipality, proc.stderr.strip()[:150]))
+        log("ERROR: claude -p 失敗 (%s): %s" % (municipality, stderr.strip()[:150]))
         return None, 0
-    out = proc.stdout.strip()
+    out = stdout.strip()
     m = re.search(r"\[.*\]", out, re.S)
     if not m:
         log("WARN: 抽出結果にJSON配列なし (%s): %s" % (municipality, out[:100]))
@@ -220,7 +234,11 @@ def main():
         log("巡回対象外の市町村の残存項目を削除: %d件" % dropped)
 
     changed_count = 0
+    deadline = time.monotonic() + 660  # 全体予算11分。超えた残りは次回巡回に回す（Actionsの15分制限に届かせない）
     for src in ok_sources:
+        if time.monotonic() > deadline:
+            log("WARN: 全体予算超過のため残りサイトを次回に回す（%s以降）" % src["municipality"])
+            break
         name = src["municipality"]
         url = src["url"]
         try:
