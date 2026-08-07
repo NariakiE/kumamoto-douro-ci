@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-07 12:31",
+ "updatedAt": "2026-08-07 18:02",
  "note": "市町村公式サイトからの自動収集データ。各項目に原文リンク・引用・取得時刻を付与。",
  "items": [
   {
@@ -10,7 +10,7 @@
    "articleDate": "2026-08-07",
    "sourceUrl": "https://www.town.mifune.kumamoto.jp/hpkiji/pub/List.aspx?c_id=3&class_set_id=1&class_id=1008",
    "sourceQuote": "【滝川橋】令和8年地震に伴う全面通行止めのお知らせ",
-   "fetchedAt": "2026-08-07 12:31"
+   "fetchedAt": "2026-08-07 18:01"
   }
  ]
 }
