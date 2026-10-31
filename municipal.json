@@ -1,5 +1,16 @@
 {
- "updatedAt": "2026-10-28 21:43",
+ "updatedAt": "2026-11-01 03:30",
  "note": "市町村公式サイトからの自動収集データ。各項目に原文リンク・引用・取得時刻を付与。",
- "items": []
+ "items": [
+  {
+   "municipality": "御船町",
+   "road": "滝川橋",
+   "type": "その他",
+   "status": "全面通行止め解除",
+   "articleDate": "2026-10-13",
+   "sourceUrl": "https://www.town.mifune.kumamoto.jp/hpkiji/pub/List.aspx?c_id=3&class_set_id=1&class_id=1008",
+   "sourceQuote": "令和8年熊本地震に伴う滝川橋全面通行止め解除のお知らせ",
+   "fetchedAt": "2026-11-01 03:29"
+  }
+ ]
 }
